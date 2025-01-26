@@ -1,8 +1,8 @@
-import { AlertsPanel } from "@/components/AlertPanel"
+import { AlertsPanel } from "@/components/alert/AlertPanel"
 import { CollateralMonitor } from "@/components/CollateralMonitor"
 import { CreditScore } from "@/components/CreditScore"
 import { DashboardHeader } from "@/components/DashboardHeader"
-import { LoanHistory } from "@/components/LoanHistory"
+import { LoanHistory } from "@/components/loan/LoanHistory"
 
 export default function DashboardPage() {
   return (
