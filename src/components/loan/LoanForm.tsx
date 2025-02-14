@@ -1,4 +1,4 @@
-import { useLoanContext } from "@/context/LoanContext";
+import { useLoanContext } from "@/provider/LoanProvider";
 
 export const LoanForm = () => {
   const { handleInputChange, loanDetails } = useLoanContext();

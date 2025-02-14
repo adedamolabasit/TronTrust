@@ -6,13 +6,14 @@ import { LoanHistory } from "@/components/loan/LoanHistory";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function DashboardPage() {
   const handleBackClick = () => {
     window.history.back();
   };
 
   return (
-    <div className="w-screen px-4 py-8 bg-gray-200 px-12">
+    <div className="relative w-screen px-4 py-8 bg-gray-200 px-16">
       <DashboardHeader />
       <button
         onClick={handleBackClick}
